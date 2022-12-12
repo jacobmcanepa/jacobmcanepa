@@ -1,0 +1,19 @@
+{
+  "name": "jacobmcanepa",
+  "version": "1.0.0",
+  "description": "Jacob Canep's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobmcanepa/jacobmcanepa.git"
+  },
+  "author": "Jacob M. Canepa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobmcanepa/jacobmcanepa/issues"
+  },
+  "homepage": "https://github.com/jacobmcanepa/jacobmcanepa#readme"
+}
