@@ -16,6 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--third);
+  height: 100%;
+  overflow-x: hidden;
 }
 
 code {
@@ -23,6 +25,7 @@ code {
     monospace;
 }
 
+/* NAV STYLE */
 .nav-custom {
   background-color: var(--primary)
 }
@@ -51,4 +54,22 @@ code {
   color: var(--primary);
   background-color: var(--third);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* HOME STYLE */
+.home {
+  color: var(--primary);
+  height: 100vh;
+  text-align: center;
+}
+
+.headshot {
+  border-color: var(--primary);
+  border-width: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 500px; max-height: 500px;
+  width: auto; height: auto;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto; margin-right: auto;
 }
