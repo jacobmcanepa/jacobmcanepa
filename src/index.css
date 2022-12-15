@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #3e4639;
+  --secondary: #7a5c43;
+  --third: #ece2d8;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--third);
 }
 
 code {
@@ -16,10 +23,32 @@ code {
     monospace;
 }
 
-.nav-link {
-  @apply mx-4 bg-slate-300 px-6 py-4 rounded-xl;
+.nav-custom {
+  background-color: var(--primary)
 }
 
-.active {
-  @apply text-white bg-blue-700;
+.nav-link {
+  @apply lg:mx-3 px-7 py-2 lg:py-3 lg:rounded-xl text-xl;
+  color: var(--third);
+  transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
+}
+
+.active, .nav-link:hover {
+  background-color: #2f362b;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  color: var(--third);
+}
+
+.nav-bars {
+  color: var(--third);
+  transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
+}
+
+.nav-bars:hover {
+  color: var(--primary);
+  background-color: var(--third);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
