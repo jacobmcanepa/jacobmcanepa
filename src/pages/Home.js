@@ -8,7 +8,7 @@ function Home() {
       <div class="order-first lg:ml-8">
         <img src={headshot} className='rounded-full headshot m-4' alt='jacob-canepa-headshot'/>
       </div>
-      <main className='text-center lg:text-left ml-6'>
+      <main className='text-center lg:text-left mx-6'>
         <h2 className='font-bold text-8xl p-2'>Jacob Canepa</h2>
         <h3 className='font-bold text-6xl p-4'>Full Stack Developer | Video Editor</h3>
         <p className='text-4xl p-4'>
