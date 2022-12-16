@@ -7,4 +7,4 @@ JavaScript | CSS | HTML | SQL | NoSQL | Express | React | Node | Handlebars | jQ
 # Contact
 - 📫 How to reach me: jacobmcanepa@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/jacob-canepa-568740198/)
-- [Portfolio](https://jacobmcanepa.github.io/portfolio-jacob-canepa/)
+- [Portfolio](https://jacobmcanepa.github.io/jacobmcanepa/)
