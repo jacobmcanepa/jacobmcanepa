@@ -13,8 +13,8 @@ function Home() {
         <h3 className='font-bold text-6xl p-4'>Full Stack Developer | Video Editor</h3>
         <p className='text-4xl p-4'>
           My goal, as a content creator, is to provide quality, cutting-edge products to my clients. 
-          With my passion for creativity, learning, and core technical skills in full-stack web development, 
-          I am confident I will be able help your team achieve its goals.
+          With my passion for creativity, learning, and core technical skills in full-stack web development as well as 
+          video editing, I am confident I will be able help your team achieve its goals.
         </p>
         <div className="text-8xl text-center">
           <a href='https://www.linkedin.com/in/jacob-canepa-568740198/' target='_blank' rel='noreferrer'>
