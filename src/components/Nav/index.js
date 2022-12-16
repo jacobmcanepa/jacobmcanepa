@@ -14,7 +14,7 @@ function Nav() {
     <nav className='nav-custom lg:flex lg:justify-between lg:items-center py-2'>
       <div className='h-auto lg:h-24 mx-5 flex items-center nav-custom justify-between pb-2'>
         <Link to='/jacobmcanepa'>
-          <h1 className='logo text-5xl p-2 font-bold font-serif'>Jacob Canepa</h1>
+          <h1 className='logo text-5xl p-2 font-bold font-serif'>JC</h1>
         </Link>
         <button className='lg:hidden p-3 mr-2 nav-bars text-2xl rounded-xl' onClick={clickHandler}>
           {!navToggler ? <FaBars /> : <AiOutlineClose />}

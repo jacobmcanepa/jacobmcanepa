@@ -9,15 +9,15 @@ import PageNotFound from './pages/PageNotFound';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='min-h-screen'>
         <Nav />
 
         <Routes>
           <Route exact path='/' element={ <Home /> } />
           <Route exact path='/jacobmcanepa' element={ <Home /> } />
-          <Route exact path='/about' element={ <About /> } />
-          <Route exact path='/work' element={ <Work /> } />
-          <Route exact path='/contact' element={ <Contact /> } />
+          <Route exact path='/about' element={ <PageNotFound /> } />
+          <Route exact path='/work' element={ <PageNotFound /> } />
+          <Route exact path='/contact' element={ <PageNotFound /> } />
           <Route exact path='*' element={ <PageNotFound /> } />
         </Routes>
       </div>
