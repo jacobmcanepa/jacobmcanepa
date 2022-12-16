@@ -24,8 +24,20 @@ code {
     monospace;
 }
 
+.test {
+  border: red solid 5px;
+}
+
 .text-primary {
   color: var(--primary);
+}
+
+.text-third {
+  color: var(--third);
+}
+
+.bg-primary {
+  background-color: var(--primary);
 }
 
 /* NAV STYLE */
@@ -69,12 +81,39 @@ code {
   margin-left: auto; margin-right: auto;
 }
 
-.test {
-  border: red solid 5px;
-}
-
 @media (max-width: 1024px) {
   .headshot {
     width: 100%;
   }
+}
+
+/* CONTACT STYLE */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./assets/images/contact-bg.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.contact-button {
+  background-color: var(--secondary);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.contact-button:hover {
+  background-color: var(--primary);
+  color: var(--third);
+}
+
+.contact-socials {
+  transition: color 0.15s, font-size 0.15s;
+}
+
+.contact-socials:hover {
+  color: var(--secondary);
+  font-size: 65px;
 }

@@ -4,7 +4,7 @@ import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-sv
 
 function Home() {
   return (
-    <div className="flex-1 flex flex-col lg:flex-row min-h-screen lg:items-center text-primary">
+    <section className="flex-1 flex flex-col lg:flex-row min-h-screen lg:items-center text-primary">
       <div class="order-first lg:ml-8">
         <img src={headshot} className='rounded-full headshot m-4' alt='jacob-canepa-headshot'/>
       </div>
@@ -28,7 +28,7 @@ function Home() {
           </a>
         </div>
       </main>
-    </div>
+    </section>
   );
 }
 
