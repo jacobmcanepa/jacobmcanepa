@@ -17,12 +17,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--third);
-  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.avoid-nav {
+  padding-top: 110px;
 }
 
 .test {
@@ -90,13 +93,11 @@ code {
 
 /* CONTACT STYLE */
 .contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-image: url('./assets/images/contact-bg.jpg');
   background-size: cover;
   background-position: 50%;
+  color: var(--third);
 }
 
 
@@ -113,4 +114,9 @@ footer {
 .footer-link:hover {
   color: blue;
   text-decoration: underline;
+}
+
+/* 404 STYLE */
+.page404 {
+  padding-top: 200px;
 }
