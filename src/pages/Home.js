@@ -17,13 +17,13 @@ function Home() {
           video editing, I am confident I will be able help your team achieve its goals.
         </p>
         <div className="text-8xl text-center">
-          <a href='https://www.linkedin.com/in/jacob-canepa-568740198/' target='_blank' rel='noreferrer'>
+          <a href='https://www.linkedin.com/in/jacob-canepa-568740198/' target='_blank' rel='noreferrer' className='secondary-hover'>
             <FontAwesomeIcon icon={faLinkedinIn} className='m-8' />
           </a>
-          <a href='https://github.com/jacobmcanepa/' target='_blank' rel='noreferrer'>
+          <a href='https://github.com/jacobmcanepa/' target='_blank' rel='noreferrer' className='secondary-hover'>
             <FontAwesomeIcon icon={faGithub} className='m-8' />
           </a>
-          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
+          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer' className='secondary-hover'>
             <FontAwesomeIcon icon={faInstagram} className='m-8' />
           </a>
         </div>

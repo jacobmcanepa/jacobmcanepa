@@ -44,6 +44,10 @@ code {
   background-color: var(--primary);
 }
 
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
 /* NAV STYLE */
 .nav-custom {
   background-color: var(--primary);
@@ -85,6 +89,14 @@ code {
   margin-left: auto; margin-right: auto;
 }
 
+.secondary-hover {
+  transition: color 0.15s;
+}
+
+.secondary-hover:hover {
+  color: var(--secondary);
+}
+
 @media (max-width: 1024px) {
   .headshot {
     width: 100%;
@@ -98,6 +110,36 @@ code {
   background-size: cover;
   background-position: 50%;
   color: var(--third);
+}
+
+.contact-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.email-btn {
+  color: var(--third);
+  background-color: var(--secondary);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.email-btn:hover {
+  color: var(--third);
+  background-color: var(--primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.contact-social {
+  color: var(--third);
+  transition: color 0.15s;
+}
+
+.contact-social:hover {
+  color: var(--secondary);
+}
+
+.contact-social:active {
+  color: var(--secondary);
 }
 
 
