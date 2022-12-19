@@ -12,13 +12,13 @@ function Contact() {
           Email Me <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <div className='text-7xl mt-8 lg:text-8xl lg:mt-12'>
-          <a href='https://www.linkedin.com/in/jacob-canepa-568740198/' target='_blank' rel='noreferrer' className='m-4 contact-social'>
+          <a href='https://www.linkedin.com/in/jacob-canepa-568740198/' target='_blank' rel='noreferrer' className='m-8 contact-social'>
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
-          <a href='https://github.com/jacobmcanepa/' target='_blank' rel='noreferrer' className='m-4 contact-social'>
+          <a href='https://github.com/jacobmcanepa/' target='_blank' rel='noreferrer' className='m-8 contact-social'>
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer' className='m-4 contact-social'>
+          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer' className='m-8 contact-social'>
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
