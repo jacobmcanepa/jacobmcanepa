@@ -48,6 +48,11 @@ code {
   background-color: var(--secondary);
 }
 
+.col {
+  flex: 1;
+  padding: 1em;
+}
+
 /* NAV STYLE */
 .nav-custom {
   background-color: var(--primary);
@@ -150,14 +155,13 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--primary);
-  padding-top: 90px;
 }
 
 .about-card {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  margin: 50px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .skills-list {
@@ -165,7 +169,7 @@ code {
 }
 
 .skills-list li {
-  margin: 15px 0;
+  margin: 10px 0 10px 20px;
 }
 
 
