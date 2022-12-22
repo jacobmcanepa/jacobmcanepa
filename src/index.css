@@ -157,11 +157,35 @@ code {
   color: var(--primary);
 }
 
-.about-card {
+.white-card {
   background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-top: 150px;
+}
+
+@media (max-width: 640px) {
+  .white-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.about-card {
   margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.skills-card {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1024px) {
+  .about-card {
+    margin: 200px 0 600px 50px;
+    padding: 50px;
+  }
+
+  .skills-card {
+    margin: 400px 50px 400px 0;
+  }
 }
 
 .skills-list {
@@ -169,7 +193,7 @@ code {
 }
 
 .skills-list li {
-  margin: 10px 0 10px 20px;
+  margin: 30px 0 30px 25px;
 }
 
 
