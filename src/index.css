@@ -54,19 +54,22 @@ code {
 }
 
 /* NAV STYLE */
+.nav-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .nav-custom {
   background-color: var(--primary);
 }
 
 .nav-link {
-  @apply lg:mx-3 px-7 py-2 lg:py-3 lg:rounded-xl text-xl;
+  @apply lg:mx-3 px-7 py-2 lg:py-3 lg:rounded-xl text-2xl;
   color: var(--third);
   transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
 }
 
 .active, .nav-link:hover {
-  background-color: #2f362b;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .logo {
@@ -82,6 +85,28 @@ code {
   color: var(--primary);
   background-color: var(--third);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chevron {
+  font-size: large;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.dropdown {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #2f362b;
+}
+
+@media (max-width: 1023.98px) {
+  .hide-dropdown-lg {
+    display: none;
+  }
+}
+
+.lg-dropdown {
+  margin-top: 150px;
+  margin-left: 993px;
 }
 
 /* HOME STYLE */
@@ -117,6 +142,12 @@ code {
   color: var(--third);
 }
 
+@media (max-width: 640px) {
+  .contact-section {
+    padding-top: 70px;
+  }
+}
+
 .contact-card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -140,10 +171,6 @@ code {
 }
 
 .contact-social:hover {
-  color: var(--secondary);
-}
-
-.contact-social:active {
   color: var(--secondary);
 }
 
@@ -195,6 +222,8 @@ code {
 .skills-list li {
   margin: 30px 0 30px 25px;
 }
+
+/* WORK STYLE */
 
 
 /* FOOTER STYLE */

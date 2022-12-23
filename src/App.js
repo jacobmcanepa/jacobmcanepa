@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
+import DevWork from './pages/DevWork';
+import VideoWork from './pages/VideoWork';
 import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import Footer from './components/Footer';
@@ -17,7 +18,8 @@ function App() {
           <Route exact path='/' element={ <Home /> } />
           <Route exact path='/jacobmcanepa' element={ <Home /> } />
           <Route exact path='/about' element={ <About /> } />
-          <Route exact path='/work' element={ <PageNotFound /> } />
+          <Route exact path='/devwork' element={ <DevWork /> } />
+          <Route exact path='/videowork' element={ <VideoWork /> } />
           <Route exact path='/contact' element={ <Contact /> } />
           <Route exact path='*' element={ <PageNotFound /> } />
         </Routes>
