@@ -4,7 +4,6 @@ import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Dropdown from '../Dropdown';
 
 function Nav() {
   const [navToggler, setNavToggler] = useState(false);
@@ -34,18 +33,27 @@ function Nav() {
       }>
         <NavLink className='nav-link' to='/jacobmcanepa' onClick={clickHandler}>Home</NavLink>
         <NavLink className='nav-link' to='/about' onClick={clickHandler}>About</NavLink>
-        <span className='nav-link' onClick={workHandler}>
+        <button className='nav-link work-btn dropdown' onClick={workHandler}>
           Work <FontAwesomeIcon icon={faChevronDown} className='chevron' />
-        </span>
+          <div className='dropdown-content bg-third rounded-xl pt-5 pb-7 pl-5 pr-20 mt-3'>
+            <ul className='text-left'>
+              <li className='mb-4'>
+                <NavLink className='dropdown-link py-2 px-4 rounded-xl' to='/devwork' onClick={clickHandler}>Websites</NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-link py-2 px-4 rounded-xl' to='/videowork' onClick={clickHandler}>Videography</NavLink>
+              </li>
+            </ul>
+          </div>
+        </button>
         <div className={
-          workToggler ? 'pl-4 py-2 dropdown lg:hidden' : 'hidden'
+          workToggler ? 'pl-4 py-2 sm-dropdown lg:hidden' : 'hidden'
         }>
           <NavLink className='nav-link' to='/devwork' onClick={clickHandler}>Websites</NavLink>
           <NavLink className='nav-link' to='/videowork' onClick={clickHandler}>Videography</NavLink>
         </div>
         <NavLink className='nav-link' to='/contact' onClick={clickHandler}>Contact</NavLink>
       </div>
-      {workToggler ? <Dropdown /> : null}
     </nav>
     </>
   );
