@@ -35,13 +35,13 @@ function Nav() {
         <NavLink className='nav-link' to='/about' onClick={clickHandler}>About</NavLink>
         <button className='nav-link work-btn dropdown' onClick={workHandler}>
           Work <FontAwesomeIcon icon={faChevronDown} className='chevron' />
-          <div className='dropdown-content bg-third rounded-xl pt-5 pb-7 pl-5 pr-20 mt-3'>
+          <div className='dropdown-content bg-third rounded pt-5 pb-7 pl-5 pr-20 mt-3'>
             <ul className='text-left'>
               <li className='mb-4'>
-                <NavLink className='dropdown-link py-2 px-4 rounded-xl' to='/devwork' onClick={clickHandler}>Websites</NavLink>
+                <NavLink className='dropdown-link py-2 px-4 rounded' to='/devwork' onClick={clickHandler}>Websites</NavLink>
               </li>
               <li>
-                <NavLink className='dropdown-link py-2 px-4 rounded-xl' to='/videowork' onClick={clickHandler}>Videography</NavLink>
+                <NavLink className='dropdown-link py-2 px-4 rounded' to='/videowork' onClick={clickHandler}>Videography</NavLink>
               </li>
             </ul>
           </div>

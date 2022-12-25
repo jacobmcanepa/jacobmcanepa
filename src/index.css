@@ -113,7 +113,6 @@ code {
 }
 
 .dropdown-link:hover {
-  background-color: #faefe3;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -123,10 +122,6 @@ code {
 }
 
 @media (min-width: 1023.98px) {
-  .hide-dropdown-lg {
-    display: none;
-  }
-
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -228,12 +223,12 @@ code {
 
 @media (min-width: 1024px) {
   .about-card {
-    margin: 200px 0 600px 50px;
+    margin: 100px 0 500px 50px;
     padding: 50px;
   }
 
   .skills-card {
-    margin: 400px 50px 400px 0;
+    margin: 300px 50px 300px 0;
   }
 }
 
@@ -245,8 +240,17 @@ code {
   margin: 30px 0 30px 25px;
 }
 
-/* WORK STYLE */
+/* VIDEO WORK STYLE */
+.video-btn {
+  border: var(--primary) solid 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: color 0.15s, background-color 0.15s;
+}
 
+.video-btn:hover {
+  color: var(--third);
+  background-color: var(--primary);
+}
 
 /* FOOTER STYLE */
 footer {

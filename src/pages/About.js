@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="about-section flex flex-col justify-center lg:flex-row">
+    <section className="about-section flex flex-col justify-center lg:flex-row avoid-nav">
       <div className="white-card about-card col flex flex-col justify-center items-center">
         <h2 className="text-8xl font-bold">About</h2>
         <p className="text-3xl mt-8 text-center">
