@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/jacobmcanepa/static/css/main.2e7c6bbe.css",
-    "main.js": "/jacobmcanepa/static/js/main.7415ad3d.js",
+    "main.css": "/jacobmcanepa/static/css/main.96a0b4a5.css",
+    "main.js": "/jacobmcanepa/static/js/main.f050d6c0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/jacobmcanepa/static/js/787.c4e7f8f9.chunk.js",
     "static/media/contact-bg.jpg": "/jacobmcanepa/static/media/contact-bg.98a9e5c6f6a0e9037ac1.jpg",
     "static/media/aboutphoto.jpg": "/jacobmcanepa/static/media/aboutphoto.9f36c9eb8f0065dfbe83.jpg",
     "static/media/jacob-headshot.jpg": "/jacobmcanepa/static/media/jacob-headshot.6dc6e9e710b34acd21ed.jpg",
+    "static/media/music-market.png": "/jacobmcanepa/static/media/music-market.91594f48e3df15b23c2d.png",
     "index.html": "/jacobmcanepa/index.html",
-    "main.2e7c6bbe.css.map": "/jacobmcanepa/static/css/main.2e7c6bbe.css.map",
-    "main.7415ad3d.js.map": "/jacobmcanepa/static/js/main.7415ad3d.js.map",
+    "main.96a0b4a5.css.map": "/jacobmcanepa/static/css/main.96a0b4a5.css.map",
+    "main.f050d6c0.js.map": "/jacobmcanepa/static/js/main.f050d6c0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/jacobmcanepa/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e7c6bbe.css",
-    "static/js/main.7415ad3d.js"
+    "static/css/main.96a0b4a5.css",
+    "static/js/main.f050d6c0.js"
   ]
 }
