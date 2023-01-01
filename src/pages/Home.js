@@ -10,7 +10,7 @@ function Home() {
       </div>
       <main className='text-center lg:text-left mx-6'>
         <h2 className='font-bold text-8xl p-2'>Jacob Canepa</h2>
-        <h3 className='font-bold text-6xl p-4'>Full Stack Developer | Videographer</h3>
+        <h3 className='font-bold text-5xl md:text-6xl p-4'>Full Stack Developer | Videographer</h3>
         <p className='text-4xl p-4'>
           My goal, as a content creator, is to provide quality, cutting-edge products to my clients. 
           With my passion for creativity, learning, and core technical skills in full-stack web development as well as 
