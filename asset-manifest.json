@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/jacobmcanepa/static/css/main.96a0b4a5.css",
-    "main.js": "/jacobmcanepa/static/js/main.f050d6c0.js",
+    "main.css": "/jacobmcanepa/static/css/main.c4a36ffb.css",
+    "main.js": "/jacobmcanepa/static/js/main.251ecf2a.js",
     "static/js/787.c4e7f8f9.chunk.js": "/jacobmcanepa/static/js/787.c4e7f8f9.chunk.js",
     "static/media/contact-bg.jpg": "/jacobmcanepa/static/media/contact-bg.98a9e5c6f6a0e9037ac1.jpg",
     "static/media/aboutphoto.jpg": "/jacobmcanepa/static/media/aboutphoto.9f36c9eb8f0065dfbe83.jpg",
     "static/media/jacob-headshot.jpg": "/jacobmcanepa/static/media/jacob-headshot.6dc6e9e710b34acd21ed.jpg",
     "static/media/music-market.png": "/jacobmcanepa/static/media/music-market.91594f48e3df15b23c2d.png",
+    "static/media/weather-dashboard.png": "/jacobmcanepa/static/media/weather-dashboard.657fe4995b5ade679397.png",
+    "static/media/tech-blog.png": "/jacobmcanepa/static/media/tech-blog.d34c591fc31e8e17ef36.png",
+    "static/media/movie-app.png": "/jacobmcanepa/static/media/movie-app.bc70411fb2318aed06d9.png",
     "index.html": "/jacobmcanepa/index.html",
-    "main.96a0b4a5.css.map": "/jacobmcanepa/static/css/main.96a0b4a5.css.map",
-    "main.f050d6c0.js.map": "/jacobmcanepa/static/js/main.f050d6c0.js.map",
+    "main.c4a36ffb.css.map": "/jacobmcanepa/static/css/main.c4a36ffb.css.map",
+    "main.251ecf2a.js.map": "/jacobmcanepa/static/js/main.251ecf2a.js.map",
     "787.c4e7f8f9.chunk.js.map": "/jacobmcanepa/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96a0b4a5.css",
-    "static/js/main.f050d6c0.js"
+    "static/css/main.c4a36ffb.css",
+    "static/js/main.251ecf2a.js"
   ]
 }
