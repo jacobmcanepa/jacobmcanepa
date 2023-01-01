@@ -64,6 +64,7 @@ code {
 
 .nav-custom {
   background-color: var(--primary);
+  z-index: 99999;
 }
 
 .nav-link {
@@ -238,6 +239,40 @@ code {
 
 .skills-list li {
   margin: 30px 0 30px 25px;
+}
+
+/* DEV WORK STYLE */
+.dev-section {
+  padding-top: 130px;
+}
+
+.work-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px 10px 50px 10px;
+}
+
+.project-title {
+  font-size: 6rem;
+}
+
+.txtover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtover figcaption {
+  position: absolute;
+}
+
+@media (min-width: 1024px) {
+  .main-img {
+    max-width: 1000px; max-height: 1000px;
+    width: 100%; height: 100%;
+    display: block;
+    margin-left: auto; margin-right: auto;
+  }
 }
 
 /* VIDEO WORK STYLE */
