@@ -166,6 +166,10 @@ code {
   }
 }
 
+.contact-bg {
+  background-color: rgba(62, 70, 57, 0.9);
+}
+
 .contact-card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -216,6 +220,18 @@ code {
 .about-card {
   margin-bottom: 100px;
   margin-top: 150px;
+}
+
+.resume-btn {
+  background-color: var(--primary);
+  color: var(--third);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.resume-btn:hover {
+  background-color: var(--third);
+  color: var(--primary);
 }
 
 .skills-card {

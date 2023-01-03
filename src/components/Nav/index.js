@@ -19,7 +19,7 @@ function Nav() {
 
   return (
     <>
-    <nav className='nav-custom nav-shadow lg:flex lg:justify-between lg:items-center py-2 fixed w-full'>
+    <nav className='nav-custom nav-shadow lg:flex lg:justify-between lg:items-center fixed w-full'>
       <div className='h-auto lg:h-24 mx-5 flex items-center nav-custom justify-between pb-2'>
         <Link to='/jacobmcanepa'>
           <h1 className='logo text-5xl p-2 font-bold font-serif'>JC</h1>
